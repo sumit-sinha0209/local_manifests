@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="sumit-sinha0209"
+         fetch="https://github.com/sumit-sinha0209"
+         revision="lineage-21"
+         clone-depth="1" />
+  <remote name="LineageOS"
+         fetch="https://github.com/LineageOS"
+         revision="lineage-21"
+         clone-depth="1" />
+  <remote name="TheMuppets"
+         fetch="https://github.com/TheMuppets"
+         revision="lineage-21"
+         clone-depth="1" />
+
+<!-- Device Tree and common Tree -->
+  <project path="device/motorola/guamp" name="android_device_motorola_guamp" remote="sumit-sinha0209" />
+  <project path="device/motorola/sm6225-common" name="android_device_motorola_sm6225-common" remote="LineageOS" />
+
+<!-- Kernel -->
+  <project path="kernel/motorola/sm6225" name="android_kernel_motorola_sm6225" remote="sumit-sinha0209" />
+
+<!-- HALs -->
+  <project path="hardware/motorola" name="android_hardware_motorola" remote="LineageOS" />
+  <project path="system/qcom" name="android_system_qcom" remote="LineageOS" />
+
+<!-- Vendor blobs -->
+  <project path="vendor/motorola/guamp" name="proprietary_vendor_motorola_guamp" remote="TheMuppets" />
+  <project path="vendor/motorola/sm6225-common" name="proprietary_vendor_motorola_sm6225-common" remote="TheMuppets" />
+</manifest>
