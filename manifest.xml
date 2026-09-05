@@ -8,16 +8,20 @@
          fetch="https://github.com/LineageOS"
          revision="lineage-21"
          clone-depth="1" />
+  <remote name="sumit-sinha0209-cr"
+         fetch="https://github.com/sumit-sinha0209"
+         revision="crdroid-14"
+         clone-depth="1" />
 
 <!-- Device Tree and common Tree -->
-  <project path="device/motorola/guamp" name="android_device_motorola_guamp" remote="sumit-sinha0209" />
-  <project path="device/motorola/sm6225-common" name="android_device_motorola_sm6225-common" remote="sumit-sinha0209" />
+  <project path="device/motorola/guamp" name="android_device_motorola_guamp" remote="sumit-sinha0209-cr" />
+  <project path="device/motorola/sm6225-common" name="android_device_motorola_sm6225-common" remote="LineageOS" />
 
 <!-- Kernel -->
-  <project path="kernel/motorola/sm6225" name="android_kernel_motorola_sm6225" remote="sumit-sinha0209" />
+  <project path="kernel/motorola/sm6225" name="android_kernel_motorola_sm6225" remote="LineageOS" />
 
 <!-- HALs -->
-  <project path="hardware/motorola" name="android_hardware_motorola" remote="sumit-sinha0209" />
+  <project path="hardware/motorola" name="android_hardware_motorola" remote="LineageOS" />
 
 <!-- Vendor blobs -->
   <project path="vendor/motorola/guamp" name="proprietary_vendor_motorola_guamp" remote="sumit-sinha0209" />
