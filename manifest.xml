@@ -11,7 +11,7 @@
 
 <!-- Device Tree and common Tree -->
   <project path="device/motorola/guamp" name="android_device_motorola_guamp" remote="sumit-sinha0209" />
-  <project path="device/motorola/sm6225-common" name="android_device_motorola_sm6225-common" remote="sumit-sinha0209" />
+  <project path="device/motorola/sm6225-common" name="android_device_motorola_sm6225-common" remote="LineageOS" />
 
 <!-- Kernel -->
   <project path="kernel/motorola/sm6225" name="android_kernel_motorola_sm6225" remote="sumit-sinha0209" />
