@@ -14,10 +14,11 @@
   <project path="device/motorola/sm6225-common" name="android_device_motorola_sm6225-common" remote="LineageOS" />
 
 <!-- Kernel -->
-  <project path="kernel/motorola/sm6225" name="android_kernel_motorola_sm6225" remote="sumit-sinha0209" />
+  <project path="kernel/motorola/sm6225" name="android_kernel_motorola_sm6225" remote="LineageOS" />
 
 <!-- HALs -->
-  <project path="hardware/motorola" name="android_hardware_motorola" remote="sumit-sinha0209" />
+  <project path="hardware/motorola" name="android_hardware_motorola" remote="LineageOS" />
+  <project path="system/qcom" name="android_system_qcom" remote="LineageOS" />
 
 <!-- Vendor blobs -->
   <project path="vendor/motorola/guamp" name="proprietary_vendor_motorola_guamp" remote="sumit-sinha0209" />
