@@ -1,12 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+  <remote name="LineageOS"
+         fetch="https://github.com/LineageOS"
+         revision="lineage-21"
+         clone-depth="1" />
+  <remote name="LineageOS-new"
+         fetch="https://github.com/LineageOS"
+         revision="lineage-24.0"
+         clone-depth="1" />
   <remote name="sumit-sinha0209"
          fetch="https://github.com/sumit-sinha0209"
          revision="lineage-21"
          clone-depth="1" />
-  <remote name="LineageOS"
-         fetch="https://github.com/LineageOS"
-         revision="lineage-21"
+  <remote name="sumit-sinha0209-new"
+         fetch="https://github.com/sumit-sinha0209"
+         revision="lineage-24.0"
          clone-depth="1" />
 
 <!-- Device Tree and common Tree -->
@@ -14,7 +22,7 @@
   <project path="device/motorola/sm6225-common" name="android_device_motorola_sm6225-common" remote="LineageOS" />
 
 <!-- Kernel -->
-  <project path="kernel/motorola/sm6225" name="android_kernel_motorola_sm6225" remote="LineageOS" />
+  <project path="kernel/motorola/sm6225" name="android_kernel_motorola_sm6225" remote="LineageOS-new" />
 
 <!-- HALs -->
   <project path="hardware/motorola" name="android_hardware_motorola" remote="LineageOS" />
